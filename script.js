@@ -27,4 +27,4 @@ const book = [
   { title: "გმირთა ვარამი", author: "ვაჟა-ფშაველა", yearPublished: 1901 },
 ];
 
-console.log("წიგნების მასივი:", book);
+console.log("წიგნები:", book);
