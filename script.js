@@ -15,13 +15,13 @@ console.log("საშუალო:", average);
 const device={
     productName: "HP EliteBook 840 G7 (Intel Core i5 vPro)",
     memory: "16GB",
-    isAvalaible: [
+    isAvailableAt: [
         "HP Official Store",
          "Amazon",
          "Best Buy"
     ]
 };
- const text= `${device.productName} with ${device.memory} memory is available at ${device.isAvalaible[0]}.`
+ const text= `${device.productName} with ${device.memory} memory is available at ${device.isAvalaibleAT[0]}.`
  console.log(text);
 
  // წიგნის შესახებ //
