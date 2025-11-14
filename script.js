@@ -22,9 +22,9 @@ console.log(text);
 
 // წიგნის შესახებ //
 const book = [
-  { title: "ვეფხისტყაოსანი", author: "შოთა რუსთაველი", yearPublished: 1200 },
-  { title: "დათა თუთაშხია", author: "ჭაბუა ამირეჯიბი", yearPublished: 1971 },
-  { title: "გმირთა ვარამი", author: "ვაჟა-ფშაველა", yearPublished: 1901 },
+  { title: "ჯინსების თაობა", author: "დათო ტურაშვილი", yearPublished: 2008 },
+  { title: "დათა თუთაშხია", author: "ჭაბუა ამირეჯიბი", yearPublished: 1973 },
+  { title: "გმირთა ვარამი", author: "ლევან გოთუა", yearPublished: 1991 },
 ];
 
 console.log("წიგნები:", book);
