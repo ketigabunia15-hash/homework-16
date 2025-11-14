@@ -19,7 +19,16 @@ const device={
         "HP Official Store",
          "Amazon",
          "Best Buy"
-    ]
+    ];
 }
- const text= '${device.productName} with ${device.memory} memory is available at ${device.isAvailableAt[0]}.'
+ const text= `${device.productName} with ${device.memory} memory is available at ${device.isAvalaible[0]}.`
  console.log(text);
+
+ // წიგნის შესახებ //
+ const book=[
+    { title: "ვეფხისტყაოსანი", author: "შოთა რუსთაველი", yearPublished: 1200 },
+  { title: "დათა თუთაშხია", author: "ჭაბუა ამირეჯიბი", yearPublished: 1971 },
+  { title: "გმირთა ვარამი", author: "ვაჟა-ფშაველა", yearPublished: 1901 }
+ ] 
+
+ console.log("წიგნების მასივი:", book);
