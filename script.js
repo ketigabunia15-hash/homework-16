@@ -11,3 +11,15 @@ const average = sum / number.length;
 console.log("ჯამი:", sum);
 console.log("საშუალო:", average);
 
+// ობიექტი მოწყობილობის შესახებ //
+const device={
+    productName: "HP EliteBook 840 G7 (Intel Core i5 vPro)",
+    memory: "16GB"
+    isAvalaible: [
+        "HP Official Store",
+         "Amazon",
+         "Best Buy"
+    ]
+}
+ const text= '${device.productName} with ${device.memory} memory is available at ${device.isAvailableAt[0]}.'
+ console.log(text);
